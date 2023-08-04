@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sekolah Smk</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <img src="img/logo.png" alt="logo">
+
+        <!--List Menu-->
+        <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Jurusan</li>
+            <li>Alamat</li>
+        </ul>
+        <ol>
+            <li>About</li>
+            <li><a href="pages/kontak.html">Contact</a></li>
+            <li>Jurusan</li>
+            <li>Alamat</li>
+        </ol>
+        </nav>
+
+    <!-- Judul -->
+    <section>
+        <h1>Smk Revit</h1>
+        <p>Website Sederhana Pemula</p>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Jam</th>
+                    <th colspan="2">Pelajaran</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td rowspan="4">Pemograman Web</td>
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+    
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+    
+                    <td>HTML</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+    
+                    <td>HTML</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!--video-->
+   <section>
+    <video src="video/vadio.mkv" width="320" height="240" controls></video>
+   </section>
+   <!--audio-->
+   <section>
+    <audio src=""></audio>
+    <!--canvas-->
+   </section>
+   <section>
+    <canvas>
+    </canvas>
+   </section>
+    <footer>
+        <form action="" method="">
+            <label for="">Nama : </label>
+            <input type="text" placeholder="Nama Anda">
+            <input type="submit">
+    
+            <select name="" id="">
+                <option value="1">RPL</option>
+                <option value="2">DKV</option>
+                <option value="3">LPB</option>
+            </select>
+    
+    
+        </form>    
+    </footer>
+    </div>
+  
+   
+</body>
+
+</html>
