@@ -1,0 +1,37 @@
+.border{
+    border: 1px solid;   
+    padding: 10px;
+}
+.wadah{
+    width: 700px;
+    margin: auto;
+}
+li:hover{
+    background-color: firebrick;
+}
+.display{
+    display: inline-block;
+    padding: 3%;
+    cursor: pointer;
+}
+.warna{
+    background-image: linear-gradient(to right, FireBrick, tomato, white);
+    color: white;
+}
+img{
+    width: 100px;
+}
+.card{
+    width: 30%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.horizontal{
+    padding: 10px;
+    display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.rata{
+    text-align: center;
+}
