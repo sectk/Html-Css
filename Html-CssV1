@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smk Revit</title>
+</head>
+<body>
+    <ol>
+        <li>Contoh</li>
+        <li>Contoh</li>
+        <li>Contoh</li>
+      </ol>
+      
+      <ul>
+        <li>Jurusan
+            <ul>
+                <li>TKJ</li>
+                <li>RPL</li>
+                <li>M</li>
+            </ul>
+        </li>
+        <li>Kontak</li>
+        <li>Tentang</li>
+      </ul>
+        <h1>Smk REVIT</h1>
+        <h2>Smk REVIT</h2>
+        <h3>Smk REVIT</h3>
+        <h4>Smk REVIT</h4>
+        <h5>Smk REVIT</h5>
+        <h6>Smk REVIT</h6>
+
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Absen</th>
+                    <th>Jurusan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Azeibl</td>
+                    <td>10</td>
+                    <td>TKJ</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
