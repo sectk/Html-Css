@@ -39,5 +39,109 @@
             </div>
         </div>
     </nav>
+     <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <!--indikator-->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!--inner-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="lalara.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="mysqsc.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content</p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="javasc.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content</p>
+            </div>
+          </div>
+
+        </div>
+        <!--button kiri-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <!--button kanan-->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row bg-danger">
+            <div class="col text-white text-center py-3">
+                <h1>Pemograman</h1>
+            </div>
+        </div> 
+        <div class="row mt-3 g-2">
+            <div class="col-lg-3 col-md-6">
+                <div class="card w-100">
+                    <img src="react.png" class="card-img-top" alt="">
+                   
+                    <div class="card-body">
+
+                      <h5 class="card-title">ReactJs</h5>
+                      <p class="card-text">Belajar Dengan ReactJs Sangat Menyenangkan</p>
+                      <a href="#" class="btn btn-primary">Daftar</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+             
+                <div class="card w-100">
+                    <img src="pehape.webp" class="card-img-top" alt="">
+                   
+                    <div class="card-body">
+
+                      <h5 class="card-title">PHP</h5>
+                      <p class="card-text">Belajar Dengan PHP Sangat Menyenangkan</p>
+                      <a href="#" class="btn btn-primary">Daftar</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              
+                <div class="card w-100">
+                    <img src="lalara.jpg" class="card-img-top" alt="">
+                   
+                    <div class="card-body">
+
+                      <h5 class="card-title">Laravel</h5>
+                      <p class="card-text">Belajar Dengan Laravel Sangat Menyenangkan</p>
+                      <a href="#" class="btn btn-primary">Daftar</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card w-100">
+                    <img src="mysqsc.jpg" class="card-img-top" alt="">
+                   
+                    <div class="card-body">
+
+                      <h5 class="card-title">MySql</h5>
+                      <p class="card-text">Belajar Dengan MySql Sangat Menyenangkan</p>
+                      <a href="#" class="btn btn-primary">Daftar</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
 </body>
 </html>
